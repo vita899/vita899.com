@@ -1,0 +1,109 @@
+.Container_Banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  .Container_Banner ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 25s infinite alternate ease-in-out;
+  }
+  .Container_Banner li {
+    width: 100%;
+    list-style: none;
+    position: relative;
+  }
+  .Container_Banner img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+  .BannerText {
+    position: absolute;
+    text-align: center;
+    padding: 0 250px;
+    top: 250px;
+    color: var(--color-primario);
+  }
+  .BannerText h1 {
+    font-size: var(--font-size-h1);
+    margin-bottom: 35px;
+    color: var(--color-texto);
+    /* background-color: #b8854ba5; */
+    /* border-radius: 10px; */
+  }
+  .BannerText p {
+    font-size: var(--font-size-paragraph);
+    margin-bottom: 35px;
+    color: var(--color-texto);
+    /* background-color: #b8854ba5; */
+    /* border-radius: 10px; */
+  }
+     /* Clase hover para cambiar el color al pasar el mouse */
+     nav ul li a:hover {
+        background-color: #007bff; /* Cambia este color al que prefieras */
+    }
+    @keyframes slide {
+        0% {
+          margin-left: 0;
+        }
+        20% {
+          margin-left: 0;
+        }
+      
+        25% {
+          margin-left: -80%;
+        }
+        45% {
+          margin-left: -80%;
+        }
+      
+        50% {
+          margin-left: -130%;
+        }
+        70% {
+          margin-left: -130%;
+        }
+      
+        75% {
+          margin-left: -180%;
+        }
+        100% {
+          margin-left: -180%;
+        }
+      }
+      /* Estilos para el header */
+      header {
+        background-color: #ae6300;
+        padding: 10px;
+        text-align: center;
+    }
+
+    /* Estilos para los enlaces del menú */
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 0 15px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 18px;
+        transition: color 0.3s ease;
+    }
+
+    /* Clase hover para cambiar el color al pasar el mouse */
+    nav ul li a:hover {
+        background-color: #007bff; /* Cambia este color al que prefieras */
+    }
